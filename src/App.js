@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import LoginForm from './components/LoginForm';
 
 const App = () => {
 
@@ -19,6 +20,9 @@ const App = () => {
     <div>
       <h1>Title</h1>
       <h4>{counter}</h4>
+      <div>
+        <LoginForm />
+      </div>
     </div>
 
   );
